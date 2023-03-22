@@ -56,7 +56,9 @@ def dictionaryPrint(): # Function to Display peopleInformation
             print("~~~~~~~~~~~~~~~~~~~~~~~~~\n")
 
     else:
-        print("No One Found!\nTotal People: ",len(peopleInformation),"\n---------------------------------------------------\n")
+        print("No One Found!\nTotal People: ",len(peopleInformation))
+
+    print("---------------------------------------------------\n")
 
 
 
@@ -70,7 +72,9 @@ def dictionaryReverse(): # Function to Reverse peopleInformation
             print("~~~~~~~~~~~~~~~~~~~~~~~~~\n")
 
     else:
-        print("No One Found!\nTotal People: ",len(peopleInformation),"\n---------------------------------------------------\n")
+        print("No One Found!\nTotal People: ",len(peopleInformation))
+    
+    print("---------------------------------------------------\n")
 
 
 
@@ -111,7 +115,7 @@ while(True): # Loop To Check if The User Input was a Number or no
 
     numOfpeople=input("How Many People Do You Want To Enter? ")
 
-    if(numOfpeople.isdigit()): 
+    if(numOfpeople.isdigit() and int(numOfpeople) > 0 ): 
         print('---------------------------------------------------')
         break
     
@@ -130,7 +134,7 @@ for i in range(0,2*int(numOfpeople),2): # Loop to Input The People Name and Age
         if(valDate(userInput[i+1]) == True):
             convertToDictionary(userInput) # if The Date is Validated Add the Information 
         else:
-            print("Invalid date")
+            print("\n",userInput[i]," \Is Entered a Invalid date!")
             userInput.pop()
 
         print("---------------------------------------------------\n")
