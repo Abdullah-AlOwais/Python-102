@@ -1,6 +1,6 @@
 # Python-102
 
-his project is for one of the "Full Stack Python" Courses 
+This project is for one of the "Full Stack Python" Courses 
 which consists of several courses and each course contains a simple project,
 provided by SATR Platform.
 
