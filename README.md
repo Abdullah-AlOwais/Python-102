@@ -6,7 +6,7 @@ provided by SATR Platform.
 
 A simple Birth Date Calculator program that enables you to calculate age and some other functions.
 
-# Requirements:
+# Course's Project Description:
 
 Build a program that receives an unlimited number of people's names and birthdates.
 The program calculates the age, so that it receives the date, and returns to us the current age, Also the name of the day she/he was born.
